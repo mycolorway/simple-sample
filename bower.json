@@ -1,0 +1,28 @@
+{
+  "name": "simple-sample",
+  "version": "2.0.0",
+  "homepage": "https://github.com/mycolorway/simple-sample",
+  "authors": [
+    "farthinker <farthinker@gmail.com>"
+  ],
+  "description": "A template project based on Simple Module",
+  "main": "lib/sample.js",
+  "keywords": [
+    "sample"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "spec",
+    "node_modules",
+    "vendor",
+    "Gruntfile.coffee",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "jquery": "2.x",
+    "simple-module": "2.0"
+  }
+}
+
