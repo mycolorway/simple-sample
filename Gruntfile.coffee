@@ -26,9 +26,10 @@ module.exports = (grunt) ->
     umd:
       all:
         src: 'lib/sample.js'
+        template: 'umd.hbs'
         amdModuleId: 'simple-sample'
-        objectToExport: 'Sample'
-        globalAlias: 'SimpleSample'
+        objectToExport: 'sample'
+        globalAlias: 'sample'
         deps:
           'default': ['$', 'SimpleModule']
           amd: ['jquery', 'simple-module']

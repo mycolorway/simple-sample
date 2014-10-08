@@ -2,5 +2,5 @@
 describe 'Simple Sample', ->
 
   it 'should inherit from SimpleModule', ->
-    sample = new SimpleSample()
+    sample = simple.sample()
     expect(sample instanceof SimpleModule).toBe(true)
