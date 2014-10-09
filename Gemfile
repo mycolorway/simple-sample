@@ -1,4 +1,4 @@
 source 'http://ruby.taobao.org'
 
-gem 'sass'
+gem 'sass',    '>= 3.4.0'
 
