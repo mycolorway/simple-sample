@@ -16,6 +16,8 @@
     "spec",
     "node_modules",
     "vendor",
+    "Gemfile",
+    "Gemfile.lock",
     "Gruntfile.coffee",
     "package.json",
     "README.md"
