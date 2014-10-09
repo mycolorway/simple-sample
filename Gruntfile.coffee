@@ -49,7 +49,7 @@ module.exports = (grunt) ->
         files: ['src/**/*.coffee']
         tasks: ['coffee:src', 'umd']
       jasmine:
-        files: ['lib/**/*.js', 'specs/**/*.js'],
+        files: ['lib/**/*.js', 'specs/**/*.js']
         tasks: 'jasmine:test:build'
 
     jasmine:
@@ -60,7 +60,7 @@ module.exports = (grunt) ->
           styles: 'styles/sample.css'
           specs: 'spec/sample-spec.js'
           vendor: [
-            'vendor/bower/jquery/dist/jquery.min.js',
+            'vendor/bower/jquery/dist/jquery.min.js'
             'vendor/bower/simple-module/lib/module.js'
           ]
 
